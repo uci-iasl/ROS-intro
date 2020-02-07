@@ -5,7 +5,7 @@ Despite ROS can run on MacOS and Windows, it is preferred to use Ubuntu to run R
 
 ## Installing ROS Kinetic
 
-**Adding Source List
+**Adding Source List**
 
 First step is to add the ROS repository address to ros-latest.list. Open a new terminal window and enter the following command.
 > ```sh
