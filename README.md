@@ -10,7 +10,7 @@ ROS stands for The Robot Operating System. Operating System is a difficult topic
 The following content is the steps how I started working on ROS. 
 ## Content
 * [Installing ROS](./Installation)
-* [ROS Basics](./ROS_Basics)
+* [ROS Basics](./ROS_basics)
 * [Creating, Building and Cloning packages](./pkg)
 * [Getting started with Gazebo and rviz](./gazebo_rviz)
 * [Creating my own ROS program](./coding)
