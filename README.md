@@ -11,6 +11,7 @@ The following content is the steps how I started working on ROS.
 ## Content
 * [Installing ROS](./Installation)
 * [ROS Basics](./ROS_basics)
+* [Creating a workspace](./workspace)
 * [Creating, Building and Cloning packages](./pkg)
 * [Getting started with Gazebo and rviz](./gazebo_rviz)
 * [Creating my own ROS program](./coding)
