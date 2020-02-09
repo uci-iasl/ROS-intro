@@ -14,8 +14,9 @@ The following content is the steps how I started working on ROS.
 * [Creating a workspace](./workspace)
 * [Creating, Building and Cloning packages](./pkg)
 * [Getting started with Gazebo and rviz](./gazebo_rviz)
-* [Creating my own ROS program](./coding)
 * [ROS with robots](./robots)
+* [Creating my own ROS program](./coding)
+
 
 In this repository, I have uploaded only what I have tried and done since I started learning ROS. Therefore, some topics of ROS haven't been covered. To learn more about ROS, the documentation below can be useful.
 
