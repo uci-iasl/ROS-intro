@@ -41,6 +41,8 @@ In this example, a camera is sending raw data to `camera node` where data or msg
 
 `roscore` is a service that provides connection information to nodes so that they can transmit messages to one another. Every node connects to roscore at startup to register details of the message it publishes it to nodes wish to subscribe. When a new node appears, `roscore` provides it with the information that it needs to form a direct connection with other nodes publishing and subscribing to the same message topics. Every ROS system needs a running roscore, and nodes cannot find other nodes without it.
 
+You need to run `roscore` before launching anything. However, when you run *launch file* using `roslaunch`, `roscore` is automatically ran
+
 ### rosrun
 
 `rosrun` is a command that run *nodes* from packages from anywhere without having to give its full path or cd/roscd there first.
