@@ -68,3 +68,33 @@ Then, we have to start `roscore`, so it shares its list of publishers and subscr
 >```
 
 ![1](sample_publish_subscribe.png)
+
+
+### Sample scripts
+
+To clone all scripts below, type in the terminal (to the directory):
+```sh
+$ git clone https://github.com/bxtbold/ros_programs.git
+```
+
+**For *Turtlebot*:**
+
+* [go_to_position](https://github.com/bxtbold/ros_programs/blob/master/turtlebot/go_to_position.py): Turtlebot moves to (5,5) position
+* [live_streaming.py](https://github.com/bxtbold/ros_programs/blob/master/turtlebot/live_streaming.py): Livestreams from the camera on Turtlebot
+* [obstacle_distance.py](https://github.com/bxtbold/ros_programs/blob/master/turtlebot/obstacle_distance.py): Determine the distance between Turtlebot and forward obstacles
+* [print_position.py](https://github.com/bxtbold/ros_programs/blob/master/turtlebot/print_position.py): Prints the current position
+* [wander.py](https://github.com/bxtbold/ros_programs/blob/master/turtlebot/wander.py): Turtlebot wanders around
+
+**For *Husky Rover*:**
+
+* [go_to_position](https://github.com/bxtbold/ros_programs/blob/master/husky_rover/go_to_position.py): Husky Rover moves to (5,5) position
+* [obstacle_distance.py](https://github.com/bxtbold/ros_programs/blob/master/husky_rover/obstacle_distance.py): Determine the distance between Husky Rover and forward obstacle
+* [print_position.py](https://github.com/bxtbold/ros_programs/blob/master/husky_rover/print_position.py): Prints the current position
+
+**For *Hector Quadrotor*:**
+
+* [land.py](https://github.com/bxtbold/ros_programs/blob/master/hector_quadrotor/land.py): It lands the quadrotor
+* [takeoff.py](https://github.com/bxtbold/ros_programs/blob/master/hector_quadrotor/takeoff.py): It takes off the quadrotor
+* [live_streaming.py](https://github.com/bxtbold/ros_programs/blob/master/hector_quadrotor/live_streaming.py): Livestreams from the camera on the quadrotor
+* [run_drone](https://github.com/bxtbold/ros_programs/blob/master/hector_quadrotor/run_drone.py): It flies the quadrotor to the desired position and lands it back in the initial position.
+
