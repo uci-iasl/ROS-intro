@@ -1,6 +1,6 @@
 # First steps in ROS (Robot Operating System)
 
-In this repository, I would like to share my experience in learning ROS. There were many tutorials about starting on ROS, but most of them were not so complicated. After working on ROS for only a few months, I have finally started to understand how ROS works and how to have fun with it. In my experience, coding skill has been required that much. However, it is important to have basic algorithm knowledge and understand how the program works. 
+In this repository, I would like to share my experience in learning ROS. There were many tutorials about starting on ROS, but most of them were not so complicated. After working on ROS for only a few months, I have finally started to understand how ROS works and how to have fun with it. In my experience, coding skill hasn't been required that much. However, it is important to have basic algorithm knowledge and understand how the program works. 
 
 ROS fully run on Linux-based operating systems. If you are not familiar with Linux, this [official guide](https://help.ubuntu.com/stable/ubuntu-help/getting-started.html.en) might help you to get familiarized with it.
 

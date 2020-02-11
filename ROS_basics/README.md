@@ -1,20 +1,20 @@
 # ROS Basics
 
-Before starting simulating and writing code for robots, it is important to know the key concepts of the framework. In this repo, I will introduce essential keywords and commands.
+Before starting simulating and writing code for robots, it is important to know the key concepts of the framework. In this section, I will introduce essential keywords and commands.
 
 ### Workspace
 
 Before starting to write any ROS code, we need to set up a `workspace`. A workspace is simply a set of directories related to ROS codes. We can create multiple workspaces, but can only work in one at time.
-([Click here](./workspace) to learn **creating a workspace**)
+([Click here](./https://github.com/dcallega/ROS_Batbold_experience/tree/master/workspace) to learn **creating a workspace**)
 
 ### Package
 
 ROS software is organized into *packages*, each of which contains some combination of code, data, and documentation. Packages are located in workspaces, in the *src* directory.
-([Click here](./pkg) to learn **creating a package**)
+([Click here](./https://github.com/dcallega/ROS_Batbold_experience/tree/master/pkg) to learn **creating a package**)
 
 ### catkin
 
-`catkin` is the ROS build system that ROS uses to generate executable programs, libraries, scripts, interfaces that other code can use. (For more information about service, [click here](http://docs.ros.org/melodic/api/catkin/html/index.html))
+`catkin` is the ROS build system that ROS uses to generate executable programs, libraries, scripts, interfaces that other code can use. (For more information about catkin, [click here](http://docs.ros.org/melodic/api/catkin/html/index.html))
 
 ### master, node, message, topic
 
@@ -22,7 +22,7 @@ ROS software is organized into *packages*, each of which contains some combinati
 
 To understand these better, let's take an example.
 
-                **PIC1**
+![1](nodes.jpg)
                 
 In this example, a camera is sending raw data to `camera node` where data or msg is stored. And then, `image processing node` requests msg to `camera nod` and gets it via topic. Keep going, `display node` can request for processed images from `image processing node` and display the image on the monitor. Meanwhile, all this process is registered at ROS master.
 

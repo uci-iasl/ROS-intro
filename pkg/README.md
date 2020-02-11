@@ -35,7 +35,7 @@ Now use the `catkin_create_pkg` script to create a new package. catkin_create_pk
 >```sh 
 >$ catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
 >```
-The newly created package, beginner_tutorials, contains a *package.xml* and a *CMakeList.txt*, which have been partially filled out with the information using *catkin_create_pkg*.
+The newly created package, *beginner_tutorials*, contains a *package.xml* and a *CMakeList.txt*, which have been partially filled out with the information using *catkin_create_pkg*.
 
 ## Building a catkin workspace and sourcing the setup file
 
@@ -49,5 +49,5 @@ Now you need to build the packages in the catkin workspace:
 After the workspace has been built it has created a similar structure in the devel subfolder as you usually find under */opt/ros/kinetic*. 
 To add the workspace to your ROS environment you need to source the generated setup file:
 >```sh
->$ . catkin_ws/devel/setup.bash
+>$ catkin_ws/devel/setup.bash
 >```
