@@ -42,7 +42,7 @@ The newly created package, *beginner_tutorials*, contains a *package.xml* and a 
 Now you need to build the packages in the catkin workspace: 
 
 >```sh 
->$ cd catkin_ws/src
+>$ cd catkin_ws
 >$ catkin_make
 >```
 
